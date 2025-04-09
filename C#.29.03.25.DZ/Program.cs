@@ -10,7 +10,10 @@ namespace C_._29._03._25.DZ
         static void Main(string[] args)
         {
 
-
+          
+           var student = new Student();
+           Console.WriteLine($"ФИО: {student.NameStudent} {student.SurNameStudent} {student.PatronymicStudent}");
+           Console.WriteLine($"Группа: {student.GroupStudent}, Возраст: {student.AgeStudent}");
 
 
             var chinaWall = new ChinaWall();
