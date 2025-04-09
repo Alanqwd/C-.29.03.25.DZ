@@ -14,22 +14,19 @@ namespace C_._29._03._25.DZ
 
 
 
-
-
-        public class ChinaWall : SevenWonders
+    public class ChinaWall : SevenWonders
+    {
+        public ChinaWall()
         {
-            public ChinaWall()
-            {
-                Name = "Великая Китайская стена";
-                Description = "Огромная защитная стена, построенная для защиты от нападений. " +
-                "Ее длина составляет около 21 196 километров.";
-            }
+            Name = "Великая Китайская стена";
+            Description = "Огромная защитная стена, построенная для защиты от нападений. " +
+            "Ее длина составляет около 21 196 километров.";
         }
+    }
 
 
 
-
-        public class PyramidCheops : SevenWonders
+    public class PyramidCheops : SevenWonders
         {
             public PyramidCheops()
             {

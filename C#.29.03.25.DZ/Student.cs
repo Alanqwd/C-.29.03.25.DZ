@@ -129,8 +129,8 @@
                     sum += Grades[subjectIndex, i];
                 }
                 return sum / Grades.GetLength(1);
-            }
 
+            }
 
 
         }
